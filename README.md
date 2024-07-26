@@ -27,10 +27,10 @@ pip install -r requirements.txt
 ```
 
 
-##Data
+## Data
 The dataset nifty50_data.csv contains Nifty 50 price data with a 'Close' column representing the closing prices.
 
-##Preprocessing
+## Preprocessing
 Load and Normalize Data:
 
 Load the data from the CSV file.
@@ -39,13 +39,17 @@ Create Dataset:
 
 Create input-output pairs for the LSTM model.
 Use 60 previous time steps to predict the next value.
-##Model
+
+
+## Model
 A Bidirectional LSTM model is used with the following architecture:
 
 Two Bidirectional LSTM layers with 100 units each.
 Dropout layers with a dropout rate of 40% to prevent overfitting.
 A Dense layer to produce the final output.
-##Training
+
+
+## Training
 The model is trained with the following parameters:
 
 Epochs: 200
@@ -54,7 +58,8 @@ Validation split: 20%
 ##Evaluation
 The model's performance is evaluated using Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R²) scores for both training and testing data.
 
-##Future Predictions
+
+## Future Predictions
 The model predicts the Nifty 50 prices for the next 375 minutes (75 5-minute intervals) based on the last test sequence.
 
 ##Results

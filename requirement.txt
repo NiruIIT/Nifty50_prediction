@@ -1,0 +1,9 @@
+
+### `requirements.txt`
+
+```plaintext
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow

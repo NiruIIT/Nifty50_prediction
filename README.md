@@ -24,6 +24,8 @@ You can install these packages using the following command:
 
 ```sh
 pip install -r requirements.txt
+```
+
 
 ##Data
 The dataset nifty50_data.csv contains Nifty 50 price data with a 'Close' column representing the closing prices.

@@ -62,5 +62,13 @@ The model's performance is evaluated using Mean Squared Error (MSE), Mean Absolu
 ## Future Predictions
 The model predicts the Nifty 50 prices for the next 375 minutes (75 5-minute intervals) based on the last test sequence.
 
-##Results
+## Results
 The actual prices, training predictions, testing predictions, and future predictions are plotted for visualization.
+
+## Conclusion
+This project demonstrates how to use a Bidirectional LSTM model to predict stock prices using historical data. The model achieves reasonable accuracy, and future predictions can provide insights for short-term trading strategies.
+
+Feel free to contribute to this project by suggesting improvements or adding new features.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
